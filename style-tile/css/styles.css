@@ -24,6 +24,22 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background: #FFD436;
+}
+
+.color-2 {
+	background: #FF1B00;
+}
+
+.color-3 {
+	background: #000;
+}
+
+h2 {
+	font-family: 'Condiment', cursive;
+}
+
 
 /* Show Grid */
 .showgrid {
