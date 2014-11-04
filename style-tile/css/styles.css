@@ -3,9 +3,17 @@ h2, h3, p {
 	margin: 0;
 }
 
+
 /* Layout for Style Tile*/
+.container {
+	margin-left: 0;
+}
 section {
 	margin: 20px 0;
+}
+
+img {
+	max-width: 1000px;
 }
 
 .color-1,
