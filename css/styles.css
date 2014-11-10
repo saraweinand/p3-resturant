@@ -1,0 +1,202 @@
+html {
+	background: #fff;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.nav {
+	position: fixed;
+	margin-top: -5em;
+	z-index: 10;
+}
+
+.nav li {
+	list-style: none;
+}
+
+.nav li a {
+	color: red;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+
+}
+
+
+.banner img {
+	width: 100%;
+	position: fixed;
+	margin-top: -5em;
+	z-index: -10;
+}
+
+.center h3 {
+	width: 100%;
+	display: block;
+	margin: 2% auto 5% auto;
+	text-align: center;
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo img{
+	width: 30%;
+	display: block;
+	margin: 5em auto;
+}
+
+div.content-bg {
+	background-color: #fff;
+	margin-top: -1%;
+	position: relative;
+}
+
+.menu-content-bg {
+	background: #fff;
+	height: 75.5em;
+}
+
+.content {
+	width: 70%;
+	margin: 0 auto;
+	padding: 5% 2%;
+}
+
+.welcome {
+	width: 40%;
+	float: left;
+	margin: 0 5%;
+}
+
+h3 {
+	margin-top: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.center h3 {
+	color: #000;
+}
+
+.contact {
+	width: 20%;
+	float: right;
+	margin: 0 5%;
+}
+
+.contact li{
+	list-style: none;
+}
+
+
+
+.hours li {
+	list-style: none;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h6 {
+	font-size: .5em;
+	margin-left: 5%;
+}
+
+.prices {
+	text-align: center;
+}
+.prices li{
+	list-style: none;
+	display: inline;
+	margin: 0 3%;
+}
+
+.description {
+	text-align: center;
+}
+
+.description li {
+	list-style: none;
+	display: inline;
+	margin: 0 3%;
+}
+
+.left {
+	width: 40%;
+	float: left;
+	padding: 5%;
+}
+
+.right {
+	width: 40%;
+	float: right;
+	padding: 5%;
+}
+
+.footer {
+	width: 100%;
+	height: 27em;
+	background: gray;
+}
+
+.footer iframe {
+	height: 20.5em;
+	width: 25em;
+	padding: 2%;
+	float: right;
+	margin: 2em 15em 0 0;
+}
+
+.footer .philosophy {
+	width: 20%;
+	float: left;
+	padding-left: 18%;
+	padding-top: 2%	;
+	margin-top: 2em;
+	color: #fff;
+}
+
+/*slideshow*/
+
+.slide-container {
+	width: 100%;
+	background: #fff;
+}
+
+.slider {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+/* Slider Direct Child Element */
+.slider li {
+	list-style: none;
+    width: 100%;
+    display: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Slider First Direct Child */
+.slider li:first-child {
+    display: block;
+}
+
+/* Slider Images, always flex with width of slider */
+.slider li img {
+    width: 100%;
+    height: auto;
+}
+
+
+
