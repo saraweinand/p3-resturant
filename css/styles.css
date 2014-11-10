@@ -6,6 +6,29 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+h3 {
+	margin-top: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin: 1em 0 0 0;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h6 {
+	font-size: .5em;
+	margin-left: 5%;
+}
+
+/*navigation*/
 .nav {
 	position: fixed;
 	margin-top: -5em;
@@ -25,7 +48,7 @@ body {
 
 }
 
-
+/*fixed banner image*/
 .banner img {
 	width: 100%;
 	position: fixed;
@@ -33,11 +56,14 @@ body {
 	z-index: -10;
 }
 
+/*maru logo and slogan*/
+
 .center h3 {
 	width: 100%;
 	display: block;
 	margin: 2% auto 5% auto;
 	text-align: center;
+
 }
 
 .logo {
@@ -49,6 +75,8 @@ body {
 	display: block;
 	margin: 5em auto;
 }
+
+/*about and contact content*/
 
 div.content-bg {
 	background-color: #fff;
@@ -73,15 +101,6 @@ div.content-bg {
 	margin: 0 5%;
 }
 
-h3 {
-	margin-top: 0;
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.center h3 {
-	color: #000;
-}
-
 .contact {
 	width: 20%;
 	float: right;
@@ -98,16 +117,8 @@ h3 {
 	list-style: none;
 }
 
-h2 {
-	width: 100%;
-	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
-}
 
-h6 {
-	font-size: .5em;
-	margin-left: 5%;
-}
+/*menu content*/
 
 .prices {
 	text-align: center;
@@ -140,6 +151,8 @@ h6 {
 	padding: 5%;
 }
 
+/*footer & map*/
+
 .footer {
 	width: 100%;
 	height: 27em;
@@ -163,6 +176,11 @@ h6 {
 	color: #fff;
 }
 
+.footer .rights {
+	width: 100%;
+	text-align: center;
+}
+
 /*slideshow*/
 
 .slide-container {
@@ -178,7 +196,6 @@ h6 {
     list-style: none;
 }
 
-/* Slider Direct Child Element */
 .slider li {
 	list-style: none;
     width: 100%;
@@ -187,12 +204,10 @@ h6 {
     padding: 0;
 }
 
-/* Slider First Direct Child */
 .slider li:first-child {
     display: block;
 }
 
-/* Slider Images, always flex with width of slider */
 .slider li img {
     width: 100%;
     height: auto;
