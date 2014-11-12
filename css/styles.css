@@ -265,6 +265,14 @@ div.content-bg {
 	float: right;
 }
 
+.hours h3 {
+	margin-left: 1em;
+}
+
+.hours ul {
+	margin-left: -1.3em;
+}
+
 .hours li {
 	list-style: none;
 	
